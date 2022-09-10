@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        // Create a prompt to ask the user's age
+        let age = prompt("Please provide your age");
+  
+        // Convert the response from the prompt to a number
+        age = parseInt(age);
+
+        // Declare a message variable that you will use to hold the console
+        // message for the user
+        let message = "";
+
+        // If the input age is equal to or greater than 21, set the message variable
+        // to confirm entry to a venue and the ability to purchase alcohol
+        if (age >= 21) {
+            message = "confirm entry to venue and ability to purchase alcohol";
+        }
+
+        // If the input age is equal to or greater than 19, set the message variable
+        // to confirm entry to the venue but deny the purchase of alcohol
+        else if (age >= 10 && age < 21) {
+            message = "confirm entry to the venue but deny the purchase of alcohol";
+        }
+
+        // Provide a default else statement to set the message variable to deny
+        // entry if none are true
+        else {
+            message = "deny entry";
+        }
+
+        console.log(age);
+        console.log(message);
+      </script>
+    <title>Chapter 3 assignment 2</title>
+</head>
+<body>
+    <h1>Please open console window to see the result</h1>
+</body>
+</html>
