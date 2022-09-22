@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript">
+      let timeValue = prompt(
+        "Please enter time in HRS format (i.e. 1900 = 7pm) : "
+      );
+
+      if (timeValue >= "0000" && timeValue <= "1200") alert("Good morning!");
+      else if (timeValue > "1200" && timeValue <= "1700")
+        alert("Good afternoon!");
+      else if (timeValue > "1700" && timeValue <= "1900")
+        alert("Good evening!");
+      else if (timeValue > "1900" && timeValue <= "2359") alert("Good night!");
+    </script>
+    <title>Chapter 12 and 13 excercise 5</title>
+  </head>
+  <body>
+    <div>Greetings based on the time information provided by the user</div>
+  </body>
+</html>

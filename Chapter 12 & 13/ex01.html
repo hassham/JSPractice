@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript">
+      function check(ch) {
+        if (ch >= "A" && ch <= "Z")
+          console.log(ch + " is an UpperCase character");
+        else if (ch >= "a" && ch <= "z")
+          console.log(ch + " is an LowerCase character");
+        else if (ch >= "0" && ch <= "9") console.log(ch + " is a number");
+        else console.log(ch + " is not an aplhabetic character nor a number");
+      }
+
+      // input
+      let character = prompt("Please enter a character : ");
+      check(character);
+    </script>
+    <title>Chapter 12 and 13 assignment 1</title>
+  </head>
+  <body>
+    <h1>Please open console window to see the result</h1>
+    <div>Whether the input is uppercase, lowercase or a number</div>
+  </body>
+</html>

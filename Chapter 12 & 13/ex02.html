@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript">
+      var num1, num2;
+      num1 = window.prompt("Input the First integer", "0");
+      num2 = window.prompt("Input the second integer", "0");
+
+      if (parseInt(num1) > parseInt(num2)) {
+        console.log(
+          "The larger of " + num1 + " and " + num2 + " is " + num1 + "."
+        );
+      } else if (parseInt(num2) > parseInt(num1)) {
+        console.log(
+          "The larger of " + num1 + " and " + num2 + " is " + num2 + "."
+        );
+      } else {
+        console.log("The values " + num1 + " and " + num2 + " are equal.");
+      }
+    </script>
+    <title>Chapter 12 and 13 excercise 2</title>
+  </head>
+  <body>
+    <h1>Please open console window to see the result</h1>
+    <div>Provide two number and the program tells which one is greater</div>
+  </body>
+</html>

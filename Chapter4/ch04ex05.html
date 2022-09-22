@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript">
+      // Create a variable called prize and use a prompt to ask the user to set
+      // the value by selecting a number between 0 and 10
+      let prize = prompt("Please provide a number between 0 to 10 : ");
+
+      // Convert the prompt response to a number data type
+      prize = parseInt(prize);
+
+      // Create a variable to use for the output message containing the value
+      // " My Selection: "
+      let message = "My Selection: ";
+
+      switch (prize) {
+        case 1:
+        case 2:
+          message += "Box of chocolate";
+          break;
+        case 3:
+        case 4:
+        case 5:
+          message += "Wireless input devices";
+          break;
+        case 6:
+        case 7:
+        case 8:
+          message += "Smart watch";
+          break;
+        case 9:
+        case 10:
+          message += "Smart phone";
+          break;
+        default:
+          message += "invalid selection";
+      }
+
+      // Output the message back to the user by concatenating your prize
+      // variable strings and the output message string
+      console.log(message + " " + prize);
+    </script>
+    <title>Chapter 4 assignment 5</title>
+  </head>
+  <body>
+    <h1>Please open console window to see the result</h1>
+  </body>
+</html>
